@@ -177,7 +177,7 @@ function toggle() {
     if (isOpen){
         tl.timeScale(1).play();
     } else {
-        tl.timeScale(2).reverse();
+        tl.timeScale(2.5).reverse();
     }
 }
 

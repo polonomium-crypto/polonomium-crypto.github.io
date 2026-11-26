@@ -157,6 +157,7 @@
 }
 
 .indexWrapper1 {
+    visibility: hidden;
     padding-bottom: 5px;
 }
 

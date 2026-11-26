@@ -70,7 +70,9 @@ function magStar() {
     });
 }
 
-tl.  fromTo(".nav-index",{
+gsap.set(".side", {visibility:"visible"})
+gsap.set(".container2", {visibility:"visible"})
+tl. fromTo(".nav-index",{
         x: -15,
         opacity:0
     },{
@@ -142,6 +144,7 @@ tl.  fromTo(".nav-index",{
     //     y:0
     // })
     .fromTo(".stripe1", {
+        visibility: "visible",
         rotation: 50,
         /* Fully clipped out from top to bottom (100% top inset = invisible) */
         clipPath: "inset(100% 0% 0% 0% round 9999px)"
@@ -174,6 +177,7 @@ tl.  fromTo(".nav-index",{
         ease: "back.out"
     })
     .fromTo(".mag-btn", {
+        visibility: "visible",
         opacity:0,
         rotation: 180,
         x: 100,

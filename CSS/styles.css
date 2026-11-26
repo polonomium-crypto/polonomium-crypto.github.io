@@ -1,5 +1,3 @@
-@import url("view-transition.css");
-
 @font-face {
     font-family: "Roboto Condensed";
     src: url(/Assets/fonts/RobotoCondensed-VariableFont_wght.ttf);
@@ -8,11 +6,13 @@
 @font-face {
     font-family: "Rowdies";
     src: url(/Assets/fonts/Rowdies-Regular.ttf);
+    font-display: swap;
 }
 
 @font-face {
     font-family: "Dafoe";
     src: url(/Assets/fonts/MrDafoe-Regular.ttf);
+    font-display: swap;
 }
 
 @view-transition {
@@ -64,6 +64,7 @@ body {
     box-sizing: border-box;
     background-color: #FFF9E2;
     margin: 0%;
+    overflow-x: hidden;
 }
 
 footer {
@@ -144,6 +145,7 @@ footer {
 }
 
 .nav {
+    visibility: hidden;
     position: fixed;
     inset: 0;
     width: 100%;
@@ -209,6 +211,7 @@ footer {
 }
 
 .contactsWrapper {
+    visibility: hidden;
     display: flex;
     position: relative;
     align-content: center;

@@ -71,6 +71,7 @@ let tween = gsap
     1
     )
     .fromTo(".indexWrapper1",{
+        visibility: "visible",
         x: 100,
         opacity: 0,
     }, {
